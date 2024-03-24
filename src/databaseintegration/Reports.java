@@ -41,6 +41,7 @@ public class Reports {
             e.printStackTrace();
         }
     }
+
     public void generateConsoleReport(List<String> data) {
         // Output Console
         for (String line : data) {
@@ -49,4 +50,3 @@ public class Reports {
         System.out.println("Console report generated successfully.");
     }
 }
-
