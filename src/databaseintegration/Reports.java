@@ -6,6 +6,7 @@ package databaseintegration;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 /**
  *
@@ -39,6 +40,13 @@ public class Reports {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    public void generateConsoleReport(List<String> data) {
+        // Output Console
+        for (String line : data) {
+            System.out.println(line);
+        }
+        System.out.println("Console report generated successfully.");
     }
 }
 
