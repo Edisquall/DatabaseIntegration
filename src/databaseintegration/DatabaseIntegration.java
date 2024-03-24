@@ -14,7 +14,13 @@ public class DatabaseIntegration {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO coasasasdasde application logic here
+       //ALL data that are required on the table were added through MySql
+       
+       
+        
+        
+        
+        
     }
     
 }
